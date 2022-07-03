@@ -1,0 +1,25 @@
+{
+  "name": "rabbitmq-node",
+  "version": "1.0.0",
+  "description": "",
+  "main": "receive.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/newsman2/rabbitmq-node.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/newsman2/rabbitmq-node/issues"
+  },
+  "homepage": "https://github.com/newsman2/rabbitmq-node#readme",
+  "dependencies": {
+    "amqplib": "^0.10.0",
+    "express": "^4.18.1",
+    "webstomp-client": "^1.2.6",
+    "ws": "^8.8.0"
+  }
+}
